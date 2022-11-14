@@ -6,11 +6,11 @@ import tkinter.messagebox
 from tkinter.constants import SUNKEN
  
 window = tk.Tk()
-window.title('Calculator-GeeksForGeeks')
+window.title('Calculator-')
 frame = tk.Frame(master=window, bg="skyblue", padx=10)
 frame.pack()
-entry = tk.Entry(master=frame, relief=SUNKEN, borderwidth=3, width=30)
-entry.grid(row=0, column=0, columnspan=3, ipady=2, pady=2)
+entry = tk.Entry(master=frame, relief=SUNKEN, borderwidth=4, width=54)
+entry.grid(row=8, column=1, columnspan=4, ipady=7, pady=7)
  
  
 def myclick(number):
